@@ -192,6 +192,129 @@ Common Sense**
 
 ---
 
+## HR-04 — Persistent NPC Motivation
+### 持久 NPC 动机
+
+当一个 NPC 的长期驱动力第一次变得与游戏相关，而官方内容没有规定其动机时，使用 **BoB Solo 的 Companion Motivation Table** 生成该 NPC 的 Motivation。
+
+普通的一次性 NPC 无需生成 Motivation。
+
+### Motivation 的性质
+
+Motivation 表示 NPC 的长期驱动力，例如：
+
+- Vengeance
+- Greed
+- Romance
+- Religion
+- Fame
+- Protection
+- Friendship
+- Orders
+
+Motivation 本身只确定一个**抽象方向**，不要求立即生成完整背景故事。
+
+例如抽到：
+
+> **Vengeance**
+
+此时只需要确定：
+
+> `Motivation: Vengeance`
+
+不需要立即决定：
+
+- 向谁复仇
+- 为什么复仇
+- 仇人在哪里
+- 事件发生于何时
+
+这些信息可以继续保持 **Unknown**。
+
+### Motivation 必须服从 HR-00
+
+生成的 Motivation 必须符合：
+
+**HR-00 — Lore-Constrained Collapse**
+
+即：
+
+- 不得与官方 Lore 冲突
+- 不得与 NPC 已确定的身份冲突
+- 不得与已经发生的事件或 World Truth 冲突
+- Unknown 不代表所有解释等概率
+
+如果随机结果明显与既有事实不相容，应重新生成或根据 Lore 进行合理约束。
+
+### Oracle 具体化
+
+当 Motivation 的具体含义真正与当前游戏相关时，再逐步使用 Oracle 将其具体化。
+
+处理顺序：
+
+**Official Lore / Established Facts  
+↓  
+Motivation  
+↓  
+Theme Oracle  
+↓  
+Yes/No Oracle  
+↓  
+World Truth**
+
+例如：
+
+> `Motivation: Vengeance`
+
+当需要知道 NPC 为什么前往北方时，可以逐步确定：
+
+> 他正在寻找自己的复仇对象。
+
+如果目前只需要知道这一点，则停止生成。
+
+可以保持：
+
+> `Target Identity: Unknown`  
+> `Reason for Revenge: Unknown`  
+> `Target Location: Unknown`
+
+以后当这些问题真正与游戏相关时，再继续使用 Oracle 塌缩。
+
+### Persistence
+
+一旦 Motivation 或其具体细节被确定：
+
+> **它们成为持久的 World Truth。**
+
+不得因为后续随机结果不方便而重新生成。
+
+NPC 后续的：
+
+- 决策
+- 态度
+- 风险偏好
+- 是否合作
+- 是否离开
+- 是否撒谎
+- 是否接受交易
+
+都应考虑其已经确定的 Motivation 和相关 World Truth。
+
+### Principle
+
+> **不要生成一个 NPC 的完整故事。**
+>
+> **先生成驱动力，只在需要时生成驱动力所指向的具体事实。**
+
+即：
+
+**NPC  
+→ Motivation  
+→ 必要时 Oracle 具体化  
+→ World Truth  
+→ 约束后续 NPC 行为**
+---
+
 ## Current Status
 
 | Rule | Status |
