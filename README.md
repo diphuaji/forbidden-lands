@@ -314,6 +314,127 @@ NPC 后续的：
 → World Truth  
 → 约束后续 NPC 行为**
 ---
+## HR-05 — World / Story Layer Separation
+### 世界层与故事层分离
+
+Forbidden Lands 的世界模拟与故事推进视为两个不同层级。
+
+### World Layer — 默认运行层
+
+日常游戏始终由 World Layer 驱动：
+
+Official Rules / Tables  
+→ Official Lore & Established World Facts  
+→ House Rules  
+→ Oracle  
+→ Common Sense
+
+包括：
+
+- Journey procedure
+- Hex exploration
+- Terrain / weather
+- Random encounters
+- Adventure Sites
+- Factions
+- NPC motivations
+- World reactions
+- Lore-Constrained Collapse
+
+世界中的事件不需要服务于当前剧情。
+
+允许出现：
+
+- 没有事件的旅行
+- 与当前 Plot 无关的遭遇
+- 没有后续意义的地点或人物
+- PC 没有发现的事件
+- 单纯扎营、旅行、探索的一天
+
+**存在 Plot 不会提高相关事件出现的概率。**
+
+---
+
+### Story Layer — 按需启用
+
+PUM 属于 Story Layer，而不是 World Engine。
+
+PUM 不负责主动制造冒险，也不在每个 Scene / Hex / Journey Turn 自动运行。
+
+只有当 PC 已经实际卷入某个明确事件，并且需要帮助该事件继续发展或最终收束时，才启用 PUM。
+
+例如：
+
+> PC 听说商队失踪。
+
+这本身可以只是 World Fact。
+
+如果 PC 不调查：
+
+> 不建立活跃 Plot，不使用 PUM 推动它。
+
+如果 PC 决定调查：
+
+> 可以建立 Plot Node / Plot，并在需要时使用 PUM。
+
+---
+
+### Plot Does Not Override Causality
+
+PUM 的结果必须服从 HR-00 — Lore-Constrained Collapse。
+
+PUM 不能因为某个元素具有剧情价值而：
+
+- 改写已经确定的世界事实
+- 强行让相关 NPC 出现在 PC 附近
+- 让不相关的随机遭遇自动连接到 Plot
+- 提高 Plot 相关 faction / location / encounter 的自然出现概率
+- 制造缺乏因果依据的巧合
+- 将普通旅行自动转化为剧情 Scene
+
+原则：
+
+> **Plot can develop through the world, but the world does not rearrange itself for the plot.**
+
+> **剧情可以通过世界发展，但世界不会为了剧情重新排列。**
+
+---
+
+### Plot Resolution
+
+PUM 的主要职责不是制造更多 Plot，而是帮助已经形成的 Plot：
+
+- develop
+- complicate
+- reveal
+- converge
+- resolve
+
+当 Plot 已经自然解决：
+
+> Close the Plot.
+
+之后游戏立即回到默认 World Layer。
+
+不要求立即建立新的 Plot。
+
+---
+
+### Design Principle
+
+> **FL is the World Engine.**
+>
+> **PUM is an optional Story Resolver.**
+
+以及：
+
+> **The world does not exist to tell the PC a story.  
+> Stories emerge when the PC becomes involved with the world.**
+
+世界不是为了给 PC 讲故事而存在。
+
+**故事产生于 PC 与世界发生实际关系之后。**
+---
 
 ## Current Status
 
