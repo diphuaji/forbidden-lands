@@ -419,6 +419,22 @@ PUM 的主要职责不是制造更多 Plot，而是帮助已经形成的 Plot：
 不要求立即建立新的 Plot。
 
 ---
+### HR-06 — Dungeon Room Size
+
+When generating a dungeon on the fly, whenever a **Room** or **Hall** is generated, roll **1D6** to determine its size:
+
+| 1D6 | Size | Typical Maximum Line of Sight |
+|---|---|---|
+| 1–2 | Small | Near |
+| 3–5 | Large | Short |
+| 6 | Gigantic | Long |
+
+The rolled size becomes a persistent fact about that room.
+
+Use the normal Forbidden Lands rules for terrain, obstacles, darkness, and zone borders to further restrict line of sight when applicable.
+
+**Purpose:** Determine the physical scale of procedurally generated dungeon spaces without requiring the solo player to invent their dimensions. The size roll is a house rule; the corresponding range categories follow the Player's Handbook.
+---
 
 ### Design Principle
 
